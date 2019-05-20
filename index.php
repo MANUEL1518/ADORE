@@ -1,3 +1,6 @@
+<?php
+	include("med/consulta.php");
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -48,7 +51,7 @@
 					<div id="arreglos_oferta">
 						<!-- Esta parte es para los arrelos en la tabla de "ofertas" -->
 							<?php
-								//ofertas();
+								mostrar_ofertas();
 							?>
 						<!-- End -->
 					</div>
@@ -76,5 +79,10 @@
 			</section>
 		</div>
 	</main>
+	<footer style="padding: 30px; box-sizing: border-box; border-top: 5px #222 solid;">
+		<p style="font-size: 18px; color: #fff;">
+			©Copyright - <a title="Adore facebook" href="https://www.facebook.com/Adore.floreria" class="hashtag">#ADORE Floreria</a>
+		</p>
+	</footer>
 </body>
 </html>
