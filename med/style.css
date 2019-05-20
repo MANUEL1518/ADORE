@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background: #000;
+  color: #333;
+  font-family: "Varela Round", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+main {
+  width: 100%;
+  margin: 0 auto;
+  background: #fff;
+}
+main h1 {
+  color: #fff;
+  font-family: Pacifico;
+  font-size: 20px;
+}
+
+header {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background: url("fondo.jpg"), rgba(0, 0, 0, 0.4);
+  background-blend-mode: soft-light;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: rows;
+  justify-content: space-between;
+}
+header img {
+  width: 60px;
+  height: 60px;
+}
+header nav {
+  color: #fff;
+}
+header nav a {
+  padding: 0px 20px;
+  color: #fff;
+}
+header nav a:hover {
+  transition: 0.5s;
+  color: #ff21a2;
+}
+
+.hashtag {
+  color: #275abc;
+}
+
+#principal {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.barra_inferior {
+  width: 20%;
+  background: #fff;
+  height: 5px;
+}
+
+#bienvenida {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0px 65px 50px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 550px;
+  background: #fff;
+  background-size: 100% 100%;
+}
+#bienvenida h1 {
+  padding: 20px 0px;
+  font-size: 35px;
+  font-family: Varela Round;
+  color: #333;
+}
+#bienvenida p {
+  font-size: 28px;
+  padding: 20px 20px 20px 0px;
+}
+
+#header_foto {
+  display: flex;
+  align-items: center;
+  flex-flow: wrap;
+  padding: 50px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 10px black;
+  width: 100%;
+  height: 550px;
+  background: url("arreglo_header.jpg");
+  background-size: cover;
+  background-position: top;
+}
+#header_foto h1 {
+  padding: 40px 0px;
+  font-size: 35px;
+  font-family: Varela Round;
+}
+#header_foto p {
+  font-size: 25px;
+  color: #fff;
+  padding: 40px 0px;
+}
+
+#ofertas {
+  padding: 50px 0;
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 20px;
+  height: 550px;
+  background: #fff;
+  background-size: 100% 100%;
+}
+#ofertas h1 {
+  padding: 20px 0px;
+  font-size: 35px;
+  font-family: Varela Round;
+  color: #333;
+}
+#ofertas p {
+  font-size: 28px;
+  padding: 20px 20px 20px 0px;
+}
+
+#contacto {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px 0px 65px 50px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 550px;
+  background: #fff;
+  background-size: 100% 100%;
+}
+#contacto h1 {
+  padding: 20px 0px;
+  font-size: 35px;
+  font-family: Varela Round;
+  color: #333;
+}
+#contacto p {
+  font-size: 28px;
+  padding: 20px 20px 20px 0px;
+}
+
+/*# sourceMappingURL=style.css.map */
